@@ -1,0 +1,36 @@
+{
+  "name": "tgd-kiko-guide-hello-subbot",
+  "version": "0.0.1",
+  "description": "example app to demonstrate functions of the kiko external subbot",
+  "scripts": {
+    "start": "node index.js",
+    "lint": "eslint **.js",
+    "fix": "eslint --fix *.js",
+    "test": "ava test/**/*.test.js --verbose"
+  },
+  "author": "1000° DIGITAL GmbH",
+  "license": "0BSD",
+  "engines": {
+    "node": ">=12"
+  },
+  "dependencies": {
+    "axios": "^0.21.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "ava": "^3.14.0",
+    "eslint": "7.15.0",
+    "eslint-config-prettier": "7.0.0",
+    "eslint-plugin-node": "11.1.0",
+    "eslint-plugin-prettier": "3.3.0",
+    "eslint-plugin-promise": "4.2.1",
+    "prettier": "2.2.1"
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/"
+  }
+}
