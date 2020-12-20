@@ -9,9 +9,9 @@
           "path": "Dockerfile"
         }
       },
-      "image": "tgd-kiko-guide-hello-subbot",
+      "image": "kiko-guide-my-first-subbot",
       "service": {
-        "name": "tgd-kiko-guide-hello-subbot",
+        "name": "kiko-guide-my-first-subbot",
         "containerPort": 8080,
         "resources": {
           "limits": {

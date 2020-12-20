@@ -1,5 +1,5 @@
 {
-  "name": "tgd-kiko-guide-hello-subbot",
+  "name": "my-first-subbot",
   "version": "0.0.1",
   "description": "example app to demonstrate functions of the kiko external subbot",
   "scripts": {
@@ -8,8 +8,16 @@
     "fix": "eslint --fix *.js",
     "test": "ava test/**/*.test.js --verbose"
   },
-  "author": "1000° DIGITAL GmbH",
-  "license": "0BSD",
+  "author": "Kiko by 1000° DIGITAL GmbH (https://www.kiko.bot)",
+  "contributors": [
+    "Mrk Busse <mark@kiko.bot>"
+  ],
+  "homepage": "https://www.kiko.bot",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kiko-software/my-first-subbot.git"
+  },
+  "license": "MIT",
   "engines": {
     "node": ">=12"
   },
@@ -28,9 +36,5 @@
     "eslint-plugin-promise": "4.2.1",
     "prettier": "2.2.1"
   },
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/"
-  }
+  "main": "index.js"
 }
