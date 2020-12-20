@@ -24,4 +24,8 @@ expected output
 - on terminal 1 "randomJoke.data: ... and ERROR - error: connect ECONNREFUSED 127.0.0.1:443"
 
 ## Deploy
-use the cloud-code cloud-run extension of your code editor.
+Use the cloud-code cloud-run extension of your code editor (Visual Studio Code or Google Cloud Shell Editor).
+- Click "Cloud Code" in the footer of the editor.
+- Click "Deploy to Cloud Run".
+- Choose your preferred region and click "Deploy".
+- Use the result URL i.e.: URL: https://my-first-subbot-....a.run.app as your external subbot webservice endpoint URL.
