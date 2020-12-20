@@ -1,7 +1,7 @@
 # My first Kiko subbot
 
 ## Introduction
-With the Kiko software you can create your own chatbot. 
+With the Kiko software you can create your own chatbot - https://www.kiko.bot 
 
 Some chatbot responses require external data sources. Kiko forwards such a user request to a so-called external subbot. The external subbot is an individual web service that fetches the required data from the external data source and then sends the response text back to the Kiko server. From there, the answer is sent to the user's chat.
 
