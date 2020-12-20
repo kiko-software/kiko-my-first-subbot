@@ -9,7 +9,8 @@ app.use(cors());
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(bodyParser.json());
 
-// process web request
+// ----------------------------
+// process the kiko web request
 app.post('/', async (req, res) => {
   // get the joke from external database
   const randomJoke = await axios.get(
@@ -49,10 +50,11 @@ app.post('/', async (req, res) => {
       ],
     })
     .catch((error) => {
-      console.error('ERROR - error:', error.message);
+      console.error('ERROR - message:', error.message);
     });
   res.status(200).json({success: true});
 });
+// ----------------------------
 
 // start the server
 const port = process.env.PORT || '8080';
