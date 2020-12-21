@@ -13,7 +13,9 @@ The processing of the request from the Kiko server takes place in the file index
 At the beginning the web server is initialised.
 
 A joke record is fetched from an external database.
-To answer the intention, a server request is sent to Kiko. 
+To answer the intent, a server request is sent to Kiko.
+The destination address is determined from the referer address of the subbot request.
+To ensure that the answer appears in the correct chat with the requesting user, the ConversationId from the request must be used in the answer.
 In this example, two chat messages are sent. 
 The last element in the request is an event that ends the conversation with the subbot.
 The following user requests are no longer sent to this subbot.
@@ -34,7 +36,7 @@ Start the web service.
 ```console
 npm run start
 ```
-Expected output: "The container started successfully on port  8081"
+Expected output: "The container started successfully on port  8080"
 
 Now you can open a second terminal and start the local tests.
 ```console
