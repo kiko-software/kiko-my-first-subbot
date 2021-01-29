@@ -38,10 +38,17 @@ npm run start
 ```
 Expected output: "The container started successfully on port  8080"
 
-Now you can open a second terminal and start the local tests.
+Now you can open a second terminal.
+Jump to the working directory.
 ```console
-npm run test
+cd cloudshell_open/my-first-subbot
 ```
+
+Start the local tests.
+```console
+npx ava test/system.test.js
+```
+
 Expected output:
 - on terminal 2 - "1 test passed"
 - on terminal 1 - "randomJoke.data: ... and ERROR - error: connect ECONNREFUSED 127.0.0.1:443"
